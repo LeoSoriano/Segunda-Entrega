@@ -62,7 +62,7 @@ header{
 
 /* Aplicación de la animación al título */
 
-/* Estilo para el contenedor, si lo necesitas */
+/* Estilo para el contenedor*/
 .contenedor-titulo {
     text-align: center;
     padding: 20px;
@@ -70,7 +70,7 @@ header{
     
 }
 
-/* Animación personalizada para "vanishIn" */
+/* Animación  para "vanishIn" */
 @keyframes vanishIn {
   from {
     opacity: 0;
@@ -117,7 +117,7 @@ header{
   animation-fill-mode: both; /* Mantiene el estado final de la animación */ 
 }
 
-/* Definición de la animación twisterInDown */
+/* Animacion para twisterInDown */
 @keyframes twisterInDown {
   0% {
     opacity: 0;
@@ -145,20 +145,19 @@ main {
 }
 
 /* Reglas ESPECÍFICAS para el layout de la página de TRAILERS */
-.main-layout-container { /* ESTO ES CLAVE: Aplica a tu nuevo div en trailers.html */
+
+.main-layout-container { /*Esto es para el main de la pagina trailer*/
     display: grid;
     grid-template-columns: 3fr 1fr; /* Mantiene la distribución de columnas */
     gap: 20px; /* Espacio entre las columnas */
     padding: 20px; /* Padding interno */
-    /* max-width: 1200px;  Opcional, si quieres un ancho máximo para el área de trailers */
-    margin-left: 20px;   /* Ajusta este valor para el espacio desde el borde izquierdo */
-    margin-right: auto;  /* Empuja el contenido hacia la izquierda */
-    /* NOTA: NO USES 'margin: 0 auto;' aquí si quieres alineación izquierda */
+    margin-left: 20px;   
+    margin-right: auto;  
 }
 
-/* Estilos específicos para el main dentro del layout de trailers */
-.content-area-main { /* Aplica a tu <main class="content-area-main"> en trailers.html */
-    /* Puedes poner aquí estilos de fondo, padding, etc., si son específicos de esta área */
+/*Estilos para el main de la pagina Trailers */
+
+.content-area-main { 
     background-color: #333;
     padding: 20px;
     border-radius: 8px;
@@ -266,29 +265,23 @@ body {
 }
 
 #carouselExampleCaptions {
-    width: 65%; /* Ajusta el porcentaje según necesites */
+    width: 65%; 
     margin: 0 auto; /* Centra el carrusel horizontalmente */
 }
 
 /* Ajusta la altura de cada diapositiva */
 #carouselExampleCaptions .carousel-item {
-    height: 500px; /* Elige la altura que prefieras */
+    height: 500px; 
 }
 
-/* Redimensiona las imágenes para que se adapten a la altura */
 #carouselExampleCaptions .carousel-item img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-/* Opcional: Estilo para los captions, para mejorar la legibilidad */
-.carousel-caption {
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
+/*  Centra el carrusel y añadi un ancho máximo */
 
-/* Opcional: Centrar el carrusel y añadir un ancho máximo */
 #carouselExampleCaptions {
     max-width: 1140px; /* Ancho máximo para el carrusel */
     margin: 0 auto;    /* Centrar horizontalmente */
@@ -338,12 +331,12 @@ body {
 
 .items{
     background-color: #202020; /* Color de fondo más oscuro para el tema Peacemaker */
-    padding: 40px 175px; /* Un poco más de padding para que el contenido respire */
+    padding: 40px 175px; 
     border-radius: 8px;
-    text-align: left; /* Cambiado a center para la estética de Peacemaker, ajusta si necesitas left para otros items */
+    text-align: left; 
     box-sizing: border-box;
     margin-top: 30px;
-    box-shadow: 0 15px 15px 25px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    box-shadow: 0 15px 15px 25px rgba(0, 0, 0, 0.5); 
 }
 
 .items img{
@@ -352,8 +345,8 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 5px; /* Bordes ligeramente redondeados para la imagen */
-    margin-top: 15px; /* Espacio superior para separar del h2 */
-    margin-bottom: 15px; /* Espacio inferior para separar del párrafo */
+    margin-top: 15px; 
+    margin-bottom: 15px; /* Espacio  para separar del párrafo */
 }
 
 .items iframe{
@@ -427,7 +420,7 @@ body {
 /* Estrella vacía: contorno amarillo sin relleno */
 .calificacion-estrellas-peacemaker .bi-star {
   color: transparent; /* Hace el relleno transparente */
-  -webkit-text-stroke: 1px #ffc107; /* Contorno para navegadores WebKit */
+  -webkit-text-stroke: 1px #ffc107; /* Contorno para navegadores WebKit */ /*webkit: motor de renderizado de codigo abierto*/
 }
 
 .calificacion-estrellas-peacemaker .bi:hover{
@@ -563,8 +556,8 @@ body {
   padding: 45px;
 }
 
+/* Color y estilo para el título */
 .estreno{
-  /* Color y estilo para el título */
     color: #ff9900;
     background-color: #333;
     font-size: 1.5rem;
@@ -602,9 +595,9 @@ body {
   
 .items-series{
     background-color: #202020; /* Color de fondo más oscuro para el tema Peacemaker */
-    padding: 10px 20px; /* Un poco más de padding para que el contenido respire */
+    padding: 10px 20px; 
     border-radius: 8px;
-    text-align: left; /* Cambiado a center para la estética de Peacemaker, ajusta si necesitas left para otros items */
+    text-align: left; 
     box-sizing: border-box;
     margin-top: 30px;
     box-shadow: 0 15px 15px 25px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
@@ -632,7 +625,7 @@ body {
 .items-series p{
     text-align: justify;
     font-family: "Cinzel Decorative", serif; 
-    font-size: 22px; /* Ajuste para mejor lectura*/
+    font-size: 22px; 
     color: #e0e0e0; 
     margin-bottom: 15px;
 }
@@ -643,8 +636,8 @@ body {
     max-width: 100%;
     height: 550px;
     border-radius: 5px; /* Bordes ligeramente redondeados para la imagen */
-    margin-top: 15px; /* Espacio superior para separar del h2 */
-    margin-bottom: 15px; /* Espacio inferior para separar del párrafo */
+    margin-top: 15px; /* Espacio  separar del h2 */
+    margin-bottom: 15px; /* Espacio para separar del párrafo */
 }
 
 .items-series iframe{
@@ -796,43 +789,46 @@ body {
     height: 25px;
     animation: boingInUp 1s ease-in-out forwards;
 }
-/* 1. Define la animación usando @keyframes */
+
+/* Aca vi varios videos y paginas para poder entender como hacerlo */
+
+/*  @keyframes */
 @keyframes boingInUp {
-  /* Estado inicial: El elemento está invisible, escalado y posicionado abajo */
+  /* El elemento está invisible, escalado y posicionado abajo */
   0% {
     opacity: 0;
     transform: translateY(1000px) scale(0.7);
   }
-  /* Rebote 1: El elemento sube rápidamente */
+  /*  El elemento sube rápidamente */
   15% {
     opacity: 1;
     transform: translateY(0px) scale(1);
   }
-  /* Rebote 2: Pequeña caída para el efecto de rebote */
+  /*  Pequeña caída para el efecto de rebote */
   30% {
     transform: translateY(-50px) scale(1.05);
   }
-  /* Rebote 3: Vuelta a subir */
+  /* : Vuelta a subir */
   45% {
     transform: translateY(0px) scale(1);
   }
-  /* Rebote 4: Caída final */
+  /* Caída final */
   60% {
     transform: translateY(-20px) scale(1.02);
   }
-  /* Rebote 5: Vuelta final a subir */
+  /*  Vuelta final a subir */
   75% {
     transform: translateY(0px) scale(1);
   }
-  /* Estado final: Se asienta en su posición final */
+  /* Se asienta en su posición final */
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
 }
 
-.PeliculasNew {
-    /* Color y estilo para el título */
+/* Color y estilo para el título */
+.PeliculasNew {   
     color: #aa0808;
     background-color: #333;
     font-size: 4.5rem;
@@ -845,11 +841,11 @@ body {
   display: flex;
   justify-content: center;
   padding: 45px;
-  /* Nombre de la animación, duración, función de temporización */
+  /*animación*/
   animation: tinDownIn 1s ease-in-out forwards;
 }
 
-/* 1. Define la animación usando @keyframes */
+/*  animación usando @keyframes */
 @keyframes tinDownIn {
   0% {
     opacity: 0;
@@ -879,10 +875,10 @@ body {
   }
 
 .items-peliculas{
-    background-color: #202020; /* Color de fondo más oscuro para el tema Peacemaker */
-    padding: 10px 20px; /* Un poco más de padding para que el contenido respire */
+    background-color: #202020; 
+    padding: 10px 20px; 
     border-radius: 8px;
-    text-align: left; /* Cambiado a center para la estética de Peacemaker, ajusta si necesitas left para otros items */
+    text-align: left; 
     box-sizing: border-box;
     margin-top: 30px;
     box-shadow: 0 15px 15px 25px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
@@ -975,7 +971,7 @@ body {
     width:100%;          /* Ocupa todo el ancho posible */
     max-width: 50000px;
     margin: 0 auto;       /* Centra el contenedor */
-    padding: 0 250px;      /* Opcional: espacio interno a los lados */
+    padding: 0 250px;      
     
 }
 
@@ -1060,14 +1056,15 @@ body {
     gap: 1rem;
 }
 
-/* Estilo para el contenedor del video que define el tamaño y la posición relativa */
+/* Estilo para el contenedor del video */
+
 .ratio {
     max-width: 1200px; /* Ancho máximo para el video en pantallas grandes */
     width: 100%; /* Ocupa el 100% del ancho disponible en pantallas pequeñas */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     border-radius: 8px;
     overflow: hidden;
-    position: relative; /* ¡CLAVE! Permite que el iframe se posicione dentro de este contenedor */
+    position: relative; /* Permite que el iframe se posicione dentro de este contenedor */
     height: 450px;
 }
 
@@ -1112,7 +1109,6 @@ body {
     display: flex;
     flex-wrap: nowrap;   /* las tarjetas seguirán en fila */
     gap: 1rem;
-    /* overflow-x: auto;  <-- quitar o comentar esta línea */
     padding-bottom: 1rem;
 }
 
@@ -1123,8 +1119,8 @@ body {
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    flex-shrink: 0;   /* ¡MUY IMPORTANTE! Impide que las tarjetas se encojan */
-    width: 280px;     /* Define un ancho fijo para cada tarjeta (ajústalo a tu gusto) */
+    flex-shrink: 0;   /* Impide que las tarjetas se encojan */
+    width: 280px;     /* Define un ancho fijo para cada tarjeta */
 }
 
 
@@ -1162,8 +1158,8 @@ body {
 }
 
 .galeria-trailers-scroll .card {
-    flex-shrink: 0;   /* ya lo tienes, perfecto */
-    width: 280px;     /* tu ancho fijo, se mantiene */
+    flex-shrink: 0;   
+    width: 280px;    
 }
 
 /*! Pagina Contacto */
