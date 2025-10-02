@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>SpoilerFree</title>
 </head>
 
@@ -24,176 +26,232 @@
             </ul>
         </nav>
     </header>
+    <div class="contenedor-titulo">
+        <h1 class="novedad">NOVEDADES</h1>
+    </div>
+
+    <div class="contenedor-subtitulo">
+        <h2 class="emmys">Ganadoras al Emmy</h2>
+    </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/pitt.jpeg" class="d-block w-100" alt="The Pitt">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Emmy- Mejor serie Dramatica</h3>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/adolescence.jpg" class="d-block w-100" alt="Adolescencia">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Emmy- Mejor serie Limitada o Antológica</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Studio.jpg" class="d-block w-100" alt="The Studio">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Emmy- Mejor serie de Comedia</h3>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
     <main> <!--Agrupa todo el contenido principal--> <!--Main tiene 3 hijos, que son las 3 section-->
+        <div class="contenido-principal">
+            <section class="contenedor-general">
+                <!--Agrupa este contenido principal en tematicas diferentes -->
+                <div class="items">
+                    <h2>Peacemaker</h2>
+                    <br>
+                    <img src="./img/peacemaker.jpg" alt="Peacemaker">
+                    <br>
+                    <p class="text-peacemaker">
+                        <b>¡Peacemaker está de regreso!</b>
+                        <br>
+                        <br>
 
-        <div class="contenedor-titulo">
-            <h1 class="novedad">NOVEDADES</h1>
-            <section class="contenedor-general"> <!--Agrupa este contenido principal en tematicas diferentes -->
-                <div class="columna">
-                    <div class="items">
-                        <h2>Peacemaker</h2>
-                        <br>
-                        <img src="./img/peacemaker.jpg" alt="Peacemaker">
-                        <br>
-                        <p class="text-peacemaker">La segunda temporada de Peacemaker se estrena el <b>21 de agosto de
-                                2025 en HBO Max.</b>
-                            <em> La temporada constará de ocho episodios</em> y sigue al antihéroe interpretado por John
-                            Cena.
-                            Además, se ha confirmado que la temporada 2 de Peacemaker seguirá a Superman en el
-                            calendario de
-                            lanzamientos de DCU.
-                            <b>James Gunn</b>, además de ser el showrunner, también escribirá y <b>dirigirá los ocho
-                                episodios de la
-                                temporada.</b> La trama de la segunda temporada explorará un mundo alternativo donde
-                            Peacemaker
-                            encuentra una realidad que satisface sus deseos, lo que lo obligará a confrontar su pasado y
-                            tomar las
-                            riendas de su futuro. <em>La serie promete ser una continuación de la historia de
-                                Peacemaker, explorando
-                                su personaje y su lugar en el nuevo DCU.</em>
-                            Al igual como se ha mencionado durante todo este tiempo <b>James Gunn</b> confirmo que la
-                            serie de
-                            Peacemaker, sera la continuacion de su nuevo universo donde veremos como sigue este universo
-                            despues de
-                            la pelicula ya estrenada de <b><em>SUPERMAN.</em></b>
-                        </p>
-                    </div>
-                    <div class="items">
-                        <h2>Merlina</h2>
-                        <br>
-                        <img src="./img/merlina.png" alt="Merlina" width="200" height="250">
-                        <br>
-                        <h3>Temporada 2</h3>
-                        <br>
-                        <p class="text-merlina">Es una de las series más populares de Netflix en los últimos tiempos, y
-                            su esperada segunda
-                            temporada
-                            que
-                            <b>se va a dividir en dos partes</b>la primera parte<em><b>ya está disponible desde este 6
-                                    de
-                                    agosto.</b></em> con 4 episodios que duran alrededor de 1hr. La segunda parte se
-                            estrenara
-                            <b>el
-                                3 de Sptiembre del 2025</b> y seran <b>4 capitulos mas</b>. En esta temporada, Merlina
-                            deberá lidiar con su familia, amigos y antiguos adversarios, lo
-                            que la
-                            llevará
-                            a vivir otro año de caos sombrío y extravagante. Armada con su aguda inteligencia y su
-                            encanto
-                            sarcástico, la adolescente también se verá envuelta en un nuevo y escalofriante misterio
-                            sobrenatural.El
-                            primer avance de la serie muestra que esta nueva temporada <em>será aún más escalofriante
-                                que la
-                                anterior, adentrándose más al terror y convirtiendo a nuestra protagonista en un
-                                personaje aún
-                                más
-                                sombrío</em>. Además de <b>Jenna Ortega </b>como Merlina Addams se ha confirmado el
-                            regreso en roles
-                            protagónicos
-                            de
-                            <b>Catherine Zeta-Jones</b> como Morticia Addams, <b>Luis Guzmán</b> como Gomez y <b>Unati
-                                Lewis-Nyawo</b> como Ritchie Santiago. También volveremos a ver a <b>Emma Myers</b> como
-                            Enid
-                            Sinclair y <b>Hunter Doohan</b> como Tyler.
-                        </p>
-                    </div>
-                    <div class="items">
-                        <h2>Cuatro Fantasticos</h2>
-                        <br>
-                        <img src="./img/cuatroFantasticos.jpg" alt="CuatroFantasticos" width="400" height="500">
-                        <br>
-                        <p class="text-Fantastico">
-                            Sigue a <b>Reed Richards, Sue Storm, Johnny Storm y Ben Grimm</b>, un grupo de astronautas
-                            que,
-                            después de una misión en el espacio, obtuvieron poderes especiales y se transformaron en
-                            superhéroes.Su vida toma un giro cuando <em>Silver Surfer visita la tierra para anunciar que
-                                el planeta
-                                está en riesgo al
-                                ser el
-                                próximo
-                                objetivo de Galactus, un dios del espacio con el poder de terminar con la vida como
-                                la
-                                conocen.</em>
+                        La temporada 2 llega a HBO Max el <b>21 de agosto de 2025</b> con 8 episodios.
+                        <b>John Cena</b> vuelve como el irreverente antihéroe, y <b>James Gunn</b> dirige y
+                        escribe
+                        toda la
+                        temporada.
 
-                            La pelicula cuenta con un excelente reparto, <b>Vanessa Kirby es </b>Susan Storm, actriz
-                            de la saga
-                            de
-                            "Mision Imposible" y "Yo antes de ti". <b> Pedro Pascal</b> es Reed Richards, actor de
-                            "The Last of
-                            Us,
-                            "Gladiador 2" y "Juego de Tronos".<b>Joseph Quinn</b> es Johnny Storm, actor de
-                            "Stranger Things" y
-                            "Gladiador 2".<b>Julia Garner</b> es Silver Surfer, actris de "Inventando a Anna" y
-                            "Ozark". <b>Ebon
-                                Moss-Bachrach</b> es Ben Grim (La Mole), actor de El Oso y The Punisher.<b>Ralph
-                                Ineson</b> es
-                            Galactus, actor de "La Bruja" y "Nosferatu"
-                            <br>
-                            <br>
-                            Fecha de estreno <em><b>24 de Julio 2025.</b></em>
-                        </p>
+                        Mundos alternativos, decisiones difíciles y más acción que nunca.
+
+                        <br>
+                        <br>
+
+                    <div class="calificacion-estrellas-peacemaker">
+                        <p><b>Calificacion: </b></p>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-fill "></i>
                     </div>
-                    <div class="items">
-                        <h2>IT: Bienvenidos a Derry</h2>
+
+
+                    <p><b>#Peacemaker #HBO #Series</b></p>
+
+                </div>
+                <div class="items">
+                    <h2>Merlina</h2>
+                    <br>
+                    <div class="calificacion-estrellas-merlina">
+                        <p><b>Calificacion: </b></p>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-fill "></i>
+                        <i class="bi bi-star-half "></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <br>
+                    <h3>¡Merlina regresa más oscura que nunca!</h3>
+                    <br>
+                    <p class="text-merlina">
+                        La temporada 2 de la serie de Netflix se dividirá en 2 partes:
+
+                        <b>Parte 1:</b> Ya disponible <em><b>(6 de agosto)</b></em> 4 episodios.
+                        <b>Parte 2:</b> Estreno el <em><b>3 de septiembre de 2025</b></em> (4 episodios
+                        más).
+
+                        Misterios sobrenaturales, viejos enemigos y un año aún más sombrío esperan a Merlina
+                        Addams.
+
+                        <b><em>Con Jenna Ortega, Catherine Zeta-Jones, Luis Guzmán, Emma Myers</em></b> y
+                        más.
                         <br>
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/wRGosXZvH-k?si=TS5sLBhRe5gmik_1"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <br>
-                        <p class="it-text">
-                            <b>It: Bienvenidos a Derry se estrena en 2025</b>. La serie estará disponible como parte del
-                            catálogo
-                            de HBO Max.
-                            Al igual que las adaptaciones estrenadas hasta el momento, la serie también se desarrolla en
-                            <b>
-                                Derry</b>, lugar en donde un mal desconocido ha prevalecido con el tiempo. Pero además
-                            de
-                            presentar algunas de las formas en la que la entidad que aterroriza a los habitantes se
-                            transforma
-                            como el <b>payaso Pennywise</b>, la serie juega con una línea temporal que se remonta entre
-                            el
-                            pasado y el presente para adentrarse en el origen de este mal antes de los sucesos plasmados
-                            en
-                            la
-                            historia original.
-                            A pesar de que mantiene la esencia del trabajo de su autor, la serie de HBO bajo explorará
-                            nuevas
-                            facetas de este universo nunca antes mostradas. <b><em>“Stephen King tiene que aprobar todo.
-                                    Pero
-                                    esta vez fue realmente informal. He tenido una relación cercana con Stephen King
-                                    desde
-                                    que
-                                    hice las películas. Él me escribe, y yo le respondo. Es un honor para mí, y lo
-                                    considero
-                                    un
-                                    amigo”</em></b>, reveló el director Andy Muschietti
-                            La serie contara con:<b>Bill Skarsgård</b> como Pennywise, actor de "Nosferatu", "Deadpool
-                            2" y
-                            "The
-                            Crown". <b>Madeleine Stowe</b>, actriz de "Vidas Cruzadas" y "Revenge". <b>Jovan Adepo</b>,
-                            actor de
-                            "Babylon".<b>Miles Ekhardt</b>. <b>Joshua Odjick</b>.<b>Taylour Paige, Grant Nickalls, Peter
-                                Outerbridge, Kimberly Guerrero y Tyner Rushing también son parte del elenco.</b>
-                        </p>
+                    </p>
+                    <img src="./img/merlina.png" alt="Merlina" width="200" height="250">
+                    <p><b>#Merlina #Netflix #Series</b></p>
+
+                </div>
+                <div class="items">
+                    <h2>Cuatro Fantasticos</h2>
+                    <br>
+                    <div class="calificacion-estrellas-4fantasticos">
+                        <p><b>Calificacion: </b></p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="./img/cuatroFantasticos.jpg" alt="CuatroFantasticos" width="400" height="500">
+                    <br>
+                    <p class="text-fantastico">
+                        <b>¡Marvel regresa con su familia de héroes más icónica!</b>
+                        <br>
+                        <br>
+
+                        Los 4 Fantásticos llegan a los cines el <b><em>24 de julio de 2025.</em></b>
+                        La historia enfrentará a Reed, Sue, Johnny y Ben contra Silver Surfer y la amenaza
+                        cósmica
+                        de Galactus.
+                        <br>
+                        <em><b>Reparto estelar:
+                                <br>
+
+                                Pedro Pascal |
+
+                                Vanessa Kirby |
+
+                                Joseph Quinn |
+
+                                Ebon Moss-Bachrach |
+
+                                Julia Garner |
+
+                                Ralph Ineson | </b></em>
+
+                        <br>
+                        <br>
+                    <p><small><b>#Los4Fantásticos #Marvel #Disney+ </b></small></p>
+                    </p>
+                </div>
+                <div class="items">
+                    <h2>IT: Bienvenidos a Derry</h2>
+                    <br>
+                    <p class="it-text">
+
+                        <b>¡El terror regresa a Derry!</b>
+                        <br>
+                        La serie It: Bienvenidos a Derry llega en 2025 a HBO Max, explorando los orígenes de
+                        Pennywise y el mal que acecha la ciudad.
+
+                        <em>Con historia entre pasado y presente, la serie promete más misterio y terror que
+                            nunca.</em>
+
+                        Bill Skarsgård vuelve como Pennywise, acompañado de Madeleine Stowe, Jovan Adepo y
+                        un
+                        gran elenco.
+                        <br>
+                        <small><b>#ItBienvenidosADerry #HBOmax #Terror</b></small>
+                    </p>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wRGosXZvH-k?si=TS5sLBhRe5gmik_1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br>
+                    <br>
+                    <div class="calificacion-estrellas-it">
+                        <p><b>Calificacion: </b></p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
                     </div>
                 </div>
             </section>
-            <aside class="bg-dark text-white p-3" style="width: 120px;">
-                <h3>Plataformas</h3>
-                <ul class="list-group">
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://tv.apple.com/mx">Apple Tv</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.disneyplus.com">Disney</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.hbomax.com">HBO Max</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.netflix.com">Netflix</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.paramountplus.com">Paramount</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.primevideo.com">Prime Video</a></li>
-                </ul>
-            </aside>
+        </div>
+        <aside class="bg-dark text-white p-3" style="width: 120px;">
+            <h3>Plataformas</h3>
+            <ul class="list-group">
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://tv.apple.com/mx"
+                        target="_blank">Apple
+                        Tv</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.disneyplus.com"
+                        target="_blank">Disney</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.hbomax.com"
+                        target="_blank">HBO Max</a>
+                </li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.netflix.com"
+                        target="_blank">Netflix</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.paramountplus.com"
+                        target="_blank">Paramount</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.primevideo.com"
+                        target="_blank">Prime
+                        Video</a></li>
+            </ul>
+        </aside>
     </main>
     <footer>
         <div class="contenedor-pie">
+            <br>
             <p>&copy;2025 SpoilerFree</p>
             <ul class="footer-menu">
                 <li><a href="./index.html">Inicio</a></li>
@@ -203,17 +261,15 @@
                 <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
             <div class="redes">
-                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a> |
-                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> |
-                <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a> |
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a> |
+                <a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
             </div>
         </div>
     </footer>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap JS (con Popper) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <!--Para el carrusel-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

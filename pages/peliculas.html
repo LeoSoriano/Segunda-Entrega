@@ -9,6 +9,19 @@
     <title>Peliculas</title>
 </head>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Peliculas</title>
+</head>
+
 <body>
     <header>
         <img src="../img/SpoilerFree.png" alt="SpoilerFree" width="230" height="80" class="logo">
@@ -22,129 +35,200 @@
             </ul>
         </nav>
     </header>
+
+    <div class="contenedor-tituloPeliculas">
+        <h1 class="PeliculasNew">Peliculas</h1>
+    </div>
+    <div class="contenedor-subtitulo3">
+        <h2 class="estrenoPeli">Proximos Estrenos</h2>
+    </div>
+    <br>
+    <br>
+    <div id="carouselExampleCaptions" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/monstruo.jpg" class="d-block w-100" alt="Stranger Things">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/regret.png" class="d-block w-100" alt="Percy Jackson">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/depredador.jpg" class="d-block w-100" alt="Fallout">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="../img/walk.jpg" class="d-block w-100" alt="Emily en Paris">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="../img/viaje.jpg" class="d-block w-100" alt="The Paper">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="../img/stan.jpg" class="d-block w-100" alt="Only Murder in the Building">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
     <main>
-        <div class="contenedor-titulo">
-            <h1 class="MovieNew">PELICULAS</h1>
+        <div class="contenido-principal">
             <section class="contenedor-general">
-                <div class="columna">
-                    <div class="items">
-                        <h2>El Conjuro 4</h2>
-                        <br>
-                        <p class="text-conjuro4">Las películas de <em>El Conjuro</em> ya mostraron los casos de una
-                            familia perseguida por un
-                            espíritu
-                            siniestro, la historia de una madre soltera cuya hija se convierte en víctima de una fuerza
-                            maligna y el
-                            caso de un asesino que, supuestamente, fue obligado a cometer un crimen terrible por un
-                            demonio, y la
-                            cuarta entrega de <b>El Expediente Warren</b> mostrará un caso más en el que los Warren se
-                            vieron
-                            involucrados.
-                            <br>
-                            <br>
-                            La pelicula se espera que el estreno sea el <em><b>4 de septiembre del 2025</b></em></p>
+                <div class="items-peliculas">
+                    <h2>El Conjuro 4</h2>
+                    <h3>4 de Septiembre 2025</h3>
+                    <br>
+                    <p class="text-conjuro4">Las películas de <b>El Conjuro</b> ya mostraron los casos de una
+                        familia perseguida por un
+                        espíritu
+                        siniestro, la historia de una madre soltera cuya hija se convierte en víctima de una fuerza
+                        maligna y el
+                        caso de un asesino que, supuestamente, fue obligado a cometer un crimen terrible por un
+                        demonio, y la
+                        cuarta entrega de <b>El Expediente Warren</b> mostrará un caso más en el que los Warren se
+                        vieron
+                        involucrados.
                         <br>
                         <iframe width="560" height="315"
                             src="https://www.youtube.com/embed/bMgfsdYoEEo?si=gE1pi7xqfkomYi9w"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="items">
-                        <h2>Telefono Negro 2</h2>
-                        <br>
-                        <p>La película retoma la historia de Finney Blake, quien a los 13 años logró escapar de las
-                            garras de un
-                            sádico secuestrador, "El Raptor". Ahora, con 17 años, Finney intenta llevar una vida normal,
-                            pero las
-                            secuelas de su cautiverio lo atormentan. Al mismo tiempo, su hermana Gwen, quien posee
-                            habilidades psíquicas, comienza a recibir llamadas en sus sueños a través del teléfono negro, que
-                            pertenecía al raptor.
-                            <br>
-                            <br>
-                            La pelicula se estrenaa <em><b>el 16 de octubre de 2025</b></em></p>
+                </div>
+                <div class="items-peliculas">
+                    <h2>Telefono Negro 2</h2>
+                    <h3>16 de Octubre 2025</h3>
+                    <br>
+                    <p class="text-telefono">La película retoma la historia de <b>Finney Blake</b>, quien a los 13 años
+                        logró escapar de las
+                        garras de un
+                        sádico secuestrador,<b> "El Raptor"</b>.<b> Ahora, con 17 años, Finney</b> intenta llevar una
+                        vida normal,
+                        pero las
+                        secuelas de su cautiverio lo atormentan. Al mismo tiempo, su hermana Gwen, quien posee
+                        habilidades psíquicas, <b>comienza a recibir llamadas en sus sueños a través del teléfono
+                            negro</b>, que
+                        pertenecía al raptor.
                         <br>
                         <iframe width="560" height="315"
                             src="https://www.youtube.com/embed/7pdHPo4_8Pg?si=o-nCK-AhUmKnTvDj"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="items">
-                        <h2>Tron: Ares</h2>
-                        <p>
-                            La historia sigue un programa de inteligencia artificial muy avanzado que se traslada del
-                            mundo digital al real, en una misión arriesgada que también implicará la primera interacción
-                            de la humanidad con seres de IA.
-                            <br>
-                            <br>
-                            La franquicia de Tron se ha tomado su tiempo, construyéndose durante décadas. Esta historia
-                            comenzó en 1982, con Jeff Bridges en el papel protagonista. Luego, siguió en 2010, con Tron:
-                            Legacy, con Garrett Hedlund como Sam, un joven que está investigando la desaparición de su
-                            padre veinte años antes, una búsqueda que finalmente lo lleva a un mundo digital aislado
-                            creado por su padre después de los eventos de la primera película. Ahora, para la tercera
-                            parte de Tron, tendremos como protagonista al ganador del Oscar <b><em>Jared Leto</em></b>.
-                        </p>
+                </div>
+                <div class="items-peliculas">
+                    <h2>Tron: Ares</h2>
+                    <h3>9 de Octubre 2025</h3>
+                    <p class="text-tron">
+                        La historia sigue un <b>programa de inteligencia artificial muy avanzado</b> que se traslada del
+                        mundo digital al real,<b> en una misión arriesgada</b> que también implicará la <b> primera
+                            interacción
+                            de la humanidad </b>con <b>seres de IA</b>.
                         <br>
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/JQG7NJZRWow?si=ALwYuK4rVrXS9rpL"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </p>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JQG7NJZRWow?si=ALwYuK4rVrXS9rpL"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                    </div>
-                    <div class="items">
-                        <h2>Zootopia 2</h2>
-                        <p>Siuen el rastro serpenteante de un misterioso reptil que llega a Zootopia y pone patas arriba
-                            la metrópolis animal. Para resolver el caso, Judy y Nick deberán adentrarse en rincones
-                            inesperados de la ciudad, en los que su compañerismo será puesto a prueba como nunca antes.
-                            <br>
-                            <br>
-                            La pelicula se estrenara <em><b>el 26 de noviembre del 2025</b></em></p>
+                </div>
+                <div class="items-peliculas">
+                    <h2>Zootopia 2</h2>
+                    <h3>26 de Noviembre 2025 </h3>
+                    <p class="text-zoo">Siguen el rastro serpenteante de un misterioso reptil que llega a
+                        <b>Zootopia</b> y pone patas arriba
+                        la <b>metrópolis animal</b>. Para resolver el caso, <b>Judy</b> y <b>Nick</b> deberán adentrarse
+                        en
+                        rincones
+                        inesperados de la ciudad, en los que <b>su compañerismo será puesto a prueba como nunca
+                            antes</b>.
                         <br>
                         <iframe width="560" height="315"
                             src="https://www.youtube.com/embed/P3D3D8YMAl0?si=TaO20Vc-Veey62nO"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-
-
                 </div>
+            </section>
         </div>
-        </section>
+        <br>
         <aside class="bg-dark text-white p-3" style="width: 120px;">
-                <h3>Plataformas</h3>
-                <ul class="list-group">
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://tv.apple.com/mx">Apple Tv</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.disneyplus.com">Disney</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.hbomax.com">HBO Max</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.netflix.com">Netflix</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.paramountplus.com">Paramount</a></li>
-                    <li class="list-group-item bg-dark text-white border-0"><a href="https://www.primevideo.com">Prime Video</a></li>
-                </ul>
-            </aside>
+            <h3>Plataformas</h3>
+            <ul class="list-group">
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://tv.apple.com/mx"
+                        target="_blank">Apple Tv</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.disneyplus.com"
+                        target="_blank">Disney</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.hbomax.com"
+                        target="_blank">HBO Max</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.netflix.com"
+                        target="_blank">Netflix</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.paramountplus.com"
+                        target="_blank">Paramount</a></li>
+                <li class="list-group-item bg-dark text-white border-0"><a href="https://www.primevideo.com"
+                        target="_blank">Prime Video</a></li>
+            </ul>
+        </aside>
     </main>
     <footer>
         <div class="contenedor-pie">
             <p>&copy;2025 SpoilerFree</p>
             <ul class="footer-menu">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/series.html">Series</a></li>
-                <li><a href="./pages/peliculas.html">Peliculas</a></li>
-                <li><a href="./pages/trailers.html">Trailers</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./series.html">Series</a></li>
+                <li><a href="./peliculas.html">Peliculas</a></li>
+                <li><a href="./trailers.html">Trailers</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
             <div class="redes">
-                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a> |
-                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> |
-                <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a> |
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a> |
+                <a href="https://x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
             </div>
         </div>
     </footer>
-        <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap JS (con Popper) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
