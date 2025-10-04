@@ -1,9 +1,59 @@
+/* Clase suelta del pie*/
+
+.footer-contacto {
+  margin-top: auto;       /* el footer baja al fondo */
+  background: #222;       /* ejemplo: fondo oscuro */
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+}
+
 /*!-----FOOTER--------*/
 footer {
-  background: $color-fondo-pie;
-  color: $color-texto-claro;
+  background: #222;
+  color: white;
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px 10;
   margin-top: 60px;
   font-size: 0.8rem;
+
+  .contenedor-pie {
+    display: flex;
+    flex-direction: column; /* Se pondrá en columna */
+    align-items: center;    /* Centrado horizontal */
+    gap: 10px;              /* Espacio entre secciones */
+
+    .footer-menu {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+
+      li {
+        a {
+          color: #bbb;
+          text-decoration: none;
+          transition: color 0.3s;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+
+    .redes {
+      a {
+        color: #bbb;
+        margin: 0 5px;
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #1da1f2;
+        }
+      }
+    }
+  }
 }
